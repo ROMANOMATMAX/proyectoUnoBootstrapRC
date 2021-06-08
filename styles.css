@@ -73,6 +73,9 @@
     #button-carousel-right{
         display: none;
     }
+    .costumized-container-form-news-letter {
+        padding: 0;
+    }
 }
 
 
