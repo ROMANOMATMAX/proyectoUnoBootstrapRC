@@ -15,4 +15,7 @@ buttonRight.addEventListener('click', () => {
 // window.onload = function() {
 //     itemUnoCarousel.classList.add("carousel-animation")
 // };
-
+if(window.screen.width) {
+    console.log("Estas en pantalla pequeña");
+    buttonLeft.click();
+}
