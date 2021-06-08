@@ -1,0 +1,48 @@
+.make-position-absolute {
+    position: absolute;
+    color: white;
+    top: 30%;
+    right: 30%;
+    background-color: yellow;
+}
+
+/* .set-image-bg {
+    background-image: url("./img/test-img-carousel.jpg");
+    background-repeat: no-repeat;
+    height: 30vh;
+}    */
+
+.carousel-animation{
+    animation: mover 1.5s 1  alternate;
+    /* background-color: gray; */
+}
+
+.height-carousel-item {
+    height: 20rem;
+}
+
+.adjustmen-carousel-styles {
+    padding: 1vh 10%;
+}
+
+.container-rows-galery{
+    padding: 0 10%;
+}
+
+.adjustmen-rows-galery{
+    margin-bottom: 3vh;
+}
+
+.container-rows-more-written{
+    padding: 0 10%;
+}
+
+.costumized-container-form-news-letter{
+    padding: 0 30%;
+}
+
+@keyframes mover {
+    0% { transform: translateY(150px); }
+    100% { transform: translateY(-50px); }
+
+}
