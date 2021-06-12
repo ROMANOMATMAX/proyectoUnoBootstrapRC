@@ -15,7 +15,11 @@ buttonRight.addEventListener('click', () => {
 // window.onload = function() {
 //     itemUnoCarousel.classList.add("carousel-animation")
 // };
-if(window.screen.width) {
-    console.log("Estas en pantalla pequeña");
-    buttonLeft.click();
-}
+// if(window.screen.width) {
+//     console.log("Estas en pantalla pequeña");
+//     buttonLeft.click();
+// }
+var myCarousel = document.querySelector('#carouselExampleControls')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: false,
+})
