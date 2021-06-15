@@ -1,0 +1,10 @@
+body {
+    background-image: url('./img/contacto.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    /* margin: 0;
+    color: #ffff; */
+}
+form{
+    background: rgba(0,0,0,0.4);
+}

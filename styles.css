@@ -1,3 +1,7 @@
+body {
+    background-color: #000;
+}
+
 .make-position-absolute {
     position: absolute;
     color: white;
@@ -89,6 +93,85 @@
 #button-carousel-right{
     display: flex;
 }
+
+/* ESTILOS DEL HEADER Y EL NAV  */
+/* navbar */
+
+.dropdown-fondo{
+    backdrop-filter: blur(2px);
+}
+
+.dropdown-fondo li a:hover{
+    background:rgba(0, 0, 0, 0.295);
+}
+
+/* modal */
+.modal-fondo{
+    backdrop-filter: blur(2px);
+}
+
+
+/* seccion redes costado */
+.redes>div{ 
+    /* box-shadow: 21px 18px 24px 6px rgba(0,0,0,0.82);
+    -webkit-box-shadow: 21px 18px 24px 6px rgba(0,0,0,0.82);
+    -moz-box-shadow: 21px 18px 24px 6px rgba(0,0,0,0.82); */
+    backdrop-filter: opacity(3%) ;
+    backdrop-filter: blur(2px);
+
+}
+
+.redes-icons {
+    z-index: 1;
+}
+
+
+
+.redes-articulos{
+    transition-duration: 0.39s;
+}
+
+.redes-articulos:hover{
+    transform: scale3d(1.5, 1.5, 1.5);
+    transition-timing-function:ease-in-out;
+}
+
+.redes ul li {
+color: white;
+font-size: 2rem;
+list-style: none;
+}
+
+.redes ul li a:visited{
+    color: white;
+}
+
+/* footer */
+
+footer{
+    background: rgba(0, 0, 0, 0.178);
+    backdrop-filter: blur(2px);
+}
+
+footer div i{
+    font-size: 3rem;
+}
+
+.nosotros-footer{
+    text-shadow: 5px 5px 6px rgba(0,0,0,0.74);
+}
+
+/* ESTILOS DEL REGISTRO */
+.formulario-registro{
+
+    box-shadow: 28px 29px 94px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 28px 29px 94px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 28px 29px 94px 0px rgba(0,0,0,0.75);
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+
+}        
 
 @keyframes mover {
     0% { transform: translateY(50px);

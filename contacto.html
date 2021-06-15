@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contacto.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <title>CONTACTO</title>
+</head>
+
+<body class="min-vh-100 d-flex flex-column">
+    <!-- Nav y header  -->
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html" target="_blank">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Articulos
+                </a>
+                <ul class="dropdown-menu border-0 bg-transparent  dropdown-fondo" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
+                    </a></li>
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas valorados</a></li>
+                </ul>
+              </li>
+            </ul>
+    
+            <div class=" me-auto ">
+              <form class="d-flex m-auto">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-light btn-dark" type="submit"> <i class="fas fa-search"></i></button>
+              </form>
+            </div>
+    
+            <ul class="nav navbar-nav navbar-right align-items-center">
+              <li><button type="button" class="btn btn-dark mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ingresar
+                </button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- seccion redes costado -->
+      <section class="redes">
+        <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons">
+          <ul>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-facebook"></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-instagram"></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-google-plus-g"></i></a></li>
+          </ul>
+        </div>
+      </section>
+    <!-- sección formulario -->
+    <form class="container mt-5 text-white">
+        <h2 class="p-3 text-center">CONTACTO</h2>
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="col-md mb-3">
+                    <label class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col mb-3">
+                    <label class="form-label">Apellido:</label>
+                    <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Correo:</label>
+                <input type="text" class="form-control" placeholder="ejemplo@gmail.com">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Mensaje:</label>
+                <textarea name="" class="form-control" placeholder="Escribe tu mensaje aquí" rows="3">
+                            </textarea>
+                <div class=" container text-center">
+                    <button type="button" class="btn btn-outline-primary m-3">ENVIAR</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light mt-auto flex-wrap">
+        <div class="py-2 bg-dark text-center mb-0 nosotros-footer"> <p>Nosotros</p> </div>
+    
+        <div class="d-flex flex-wrap">
+    
+          <div class="col-12 px-3 col-md-3 ">
+            <p><i class="fab fa-fly"></i></p>
+            <p>2021©</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> ¿Que hacemos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque debitis molestias, sed earum eos,.</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> ¿Quienes somos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque debitis molestias, sed earum eos,</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> Contactanos!</p>
+            <a href="">Contacto</a>
+            <a href=""></a>
+          </div>
+          
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
