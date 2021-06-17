@@ -23,3 +23,19 @@ var myCarousel = document.querySelector('#carouselExampleControls')
 var carousel = new bootstrap.Carousel(myCarousel, {
   interval: false,
 })
+
+//JS para la animación de cards apenas aparecen en el viewport
+const listOfCards = document.getElementsByClassName("card");
+console.log(listOfCards);
+let arry = [...listOfCards] 
+console.log(arry);
+//This actually give you values relative to the top left corner of the browser window
+window.addEventListener('scroll', function () {
+  // console.log(window.innerHeight);
+  // console.log(firstCard.getBoundingClientRect().top);
+  arry.forEach(card => {
+    if(card.getBoundingClientRect().top < window.innerHeight){
+      card.classList.add("card-animation");
+    }
+  });
+})

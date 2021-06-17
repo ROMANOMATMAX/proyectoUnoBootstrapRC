@@ -171,13 +171,34 @@ border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
 
-}        
+}       
+
+/* Cambios de mati en su nueva branch */
+.card-animation{
+    animation-name: moverImagenLeftToRight;
+    animation-duration: 0.75s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;  
+}
 
 @keyframes mover {
     0% { transform: translateY(50px);
          opacity: 0;
         }
     100% { transform: translateY(0px); 
+           opacity: 1;
+    }
+
+}
+
+@keyframes moverImagenLeftToRight {
+    0% { transform: translateX(50px);
+         opacity: 0;
+        }
+    100% { transform: translateX(0px); 
            opacity: 1;
     }
 
