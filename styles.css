@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+
 }
 
 .make-position-absolute {
@@ -52,7 +52,7 @@ body {
 }
 
 .height-carousel-item {
-    height: 20rem;
+    height: 44rem;
 }
 
 .adjustmen-carousel-styles {
@@ -137,13 +137,13 @@ body {
 }
 
 .redes ul li {
-color: white;
+
 font-size: 2rem;
 list-style: none;
 }
 
 .redes ul li a:visited{
-    color: white;
+    color: black;
 }
 
 /* footer */
@@ -172,6 +172,13 @@ border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
 
 }       
+
+/* cards */
+.cards-sombra{
+    box-shadow: 0 0 20px 1px rgba(34, 34, 34, 0.568);
+}
+
+
 
 /* Cambios de mati en su nueva branch */
 .card-animation{
