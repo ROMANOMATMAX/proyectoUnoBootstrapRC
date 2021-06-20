@@ -179,7 +179,10 @@ footer div i{
     box-shadow: 0 0 20px 1px rgba(34, 34, 34, 0.568);
 }
 
-
+.pointer-none{
+    pointer-events: none;
+    user-select: none;
+}
 
 /* Cambios de mati en su nueva branch */
 .card-animation{
@@ -190,6 +193,10 @@ footer div i{
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;  
+}
+
+.pointer-style{
+    pointer-events:all;
 }
 
 @keyframes mover {
