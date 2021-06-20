@@ -162,15 +162,16 @@ footer div i{
 }
 
 /* ESTILOS DEL REGISTRO */
+.registro-body {
+    background: url(./img/fondoregistro3.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+.registro-body > div {
+    height: 90vh;
+    align-items: center;
+}
 .formulario-registro{
-
-    box-shadow: 28px 29px 94px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 28px 29px 94px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 28px 29px 94px 0px rgba(0,0,0,0.75);
-border-radius: 10px 10px 10px 10px;
--webkit-border-radius: 10px 10px 10px 10px;
--moz-border-radius: 10px 10px 10px 10px;
-
+    backdrop-filter: blur(10px);
 }       
 
 /* cards */

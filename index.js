@@ -5,6 +5,8 @@ const miniCarrouselItems = document.getElementsByClassName("carrouselItem");
 const miniCarrouselImages = document.getElementsByClassName("img-item-carrousel");
 const mainCarrouselContainer = document.getElementById('carouselExampleControls');
 const amountOfImgInCarrousel =  mainCarrouselContainer.children.length;
+const linkDos = document.getElementById('link2');
+console.log (linkDos);
 console.log("Children amount", amountOfImgInCarrousel);
 
 buttonLeft.addEventListener('click', () => {
@@ -131,3 +133,7 @@ mainCarrouselContainer.addEventListener('mousedown', lock, false);
 mainCarrouselContainer.addEventListener('touchstart', lock, false);
 mainCarrouselContainer.addEventListener('mouseup', move, false);
 mainCarrouselContainer.addEventListener('touchend', move, false);
+
+linkDos.addEventListener ('click', () => {
+  console.log('interaccion');
+});
