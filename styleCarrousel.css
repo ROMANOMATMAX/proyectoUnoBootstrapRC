@@ -39,3 +39,11 @@
     background: #efefef;
     border-color: #e60012;
 }
+
+#tematicaDos {
+    display: none;
+}
+
+#tematicaTres {
+    display: none;
+}

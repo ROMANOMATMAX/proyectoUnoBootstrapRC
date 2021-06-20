@@ -4,9 +4,13 @@ const itemUnoCarousel = document.getElementById("item-1-carousel");
 const miniCarrouselItems = document.getElementsByClassName("carrouselItem");
 const miniCarrouselImages = document.getElementsByClassName("img-item-carrousel");
 const mainCarrouselContainer = document.getElementById('carouselExampleControls');
+const linkUno = document.getElementById("link-uno")
+const linkDos = document.getElementById("link-dos");
+const linkTres = document.getElementById("link-tres");
+const tematicaUno = document.getElementById("tematicaUno");
+const tematicaDos = document.getElementById("tematicaDos");
+const tematicaTres = document.getElementById("tematicaTres");
 const amountOfImgInCarrousel =  mainCarrouselContainer.children.length;
-const linkDos = document.getElementById('link2');
-console.log (linkDos);
 console.log("Children amount", amountOfImgInCarrousel);
 
 buttonLeft.addEventListener('click', () => {
@@ -134,6 +138,23 @@ mainCarrouselContainer.addEventListener('touchstart', lock, false);
 mainCarrouselContainer.addEventListener('mouseup', move, false);
 mainCarrouselContainer.addEventListener('touchend', move, false);
 
-linkDos.addEventListener ('click', () => {
-  console.log('interaccion');
-});
+linkUno.addEventListener('click', () => {
+  console.log("Click a Link 2");
+  tematicaUno.style.display = "block";
+  tematicaDos.style.display = "none";
+  tematicaTres.style.display = "none";
+})
+
+linkDos.addEventListener('click', () => {
+  console.log("Click a Link 2");
+  tematicaUno.style.display = "none";
+  tematicaDos.style.display = "block";
+  tematicaTres.style.display = "none";
+})
+
+linkTres.addEventListener('click', () => {
+  console.log("Click a Link 2");
+  tematicaUno.style.display = "none";
+  tematicaDos.style.display = "none";
+  tematicaTres.style.display = "block";
+})
