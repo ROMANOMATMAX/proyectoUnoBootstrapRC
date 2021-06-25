@@ -116,7 +116,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 
 
 //JS para la animación de cards apenas aparecen en el viewport
-const listOfCards = document.getElementsByClassName("card");
+const listOfCards = document.getElementsByClassName("img-article-page");
 console.log(listOfCards);
 let arry = [...listOfCards] 
 console.log(arry);
