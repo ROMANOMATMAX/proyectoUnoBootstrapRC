@@ -6,7 +6,7 @@ const carouselActive = document.getElementsByClassName("carousel-item active")[0
 const itemUnoCarousel = document.getElementById("item-1-carousel");
 const miniCarrouselItems = document.getElementsByClassName("carrouselItem");
 const miniCarrouselImages = document.getElementsByClassName("img-item-carrousel");
-const tagPFromMiniCarrousel = document.getElementsByClassName("text-danger");
+const tagPFromMiniCarrousel = document.getElementsByClassName("p-from-mc");
 console.log(tagPFromMiniCarrousel);
 const arryParagraph = [...tagPFromMiniCarrousel];
 console.log(arryParagraph);
@@ -249,11 +249,11 @@ let activeItem = 1;
 
 miniItemCarouselUno.addEventListener('click', (e) => {
   activeItem=1;
-  arryParagraph[0].className = "text-white mb-0"
-  arryParagraph[1].className = "text-danger mb-0"
-  arryParagraph[2].className = "text-danger mb-0"
-  arryParagraph[3].className = "text-danger mb-0"
-  arryParagraph[4].className = "text-danger mb-0"
+  arryParagraph[0].className = "p-from-mc text-white mb-0"
+  arryParagraph[1].className = "p-from-mc text-danger mb-0"
+  arryParagraph[2].className = "p-from-mc text-danger mb-0"
+  arryParagraph[3].className = "p-from-mc text-danger mb-0"
+  arryParagraph[4].className = "p-from-mc text-danger mb-0"
   console.log("mini item Uno");
   console.log(e.target.parentNode);
   let arry = [...miniCarrouselItems]
@@ -287,11 +287,11 @@ miniItemCarouselUno.addEventListener('mouseleave', (e) => {
 
 miniItemCarouselDos.addEventListener('click', () => {
   activeItem=2;
-  arryParagraph[0].className = "text-danger mb-0"
-  arryParagraph[1].className = "text-white mb-0"
-  arryParagraph[2].className = "text-danger mb-0"
-  arryParagraph[3].className = "text-danger mb-0"
-  arryParagraph[4].className = "text-danger mb-0"
+  arryParagraph[0].className = "p-from-mc text-danger mb-0"
+  arryParagraph[1].className = "p-from-mc text-white mb-0"
+  arryParagraph[2].className = "p-from-mc text-danger mb-0"
+  arryParagraph[3].className = "p-from-mc text-danger mb-0"
+  arryParagraph[4].className = "p-from-mc text-danger mb-0"
   console.log("mini item Dos");
   let arry = [...miniCarrouselItems]
   let arryImages = [...miniCarrouselImages] 
@@ -322,11 +322,11 @@ miniItemCarouselDos.addEventListener('mouseleave', (e) => {
 })
 miniItemCarouselTres.addEventListener('click', () => {
   activeItem=3;
-  arryParagraph[0].className = "text-danger mb-0"
-  arryParagraph[1].className = "text-danger mb-0"
-  arryParagraph[2].className = "text-white mb-0"
-  arryParagraph[3].className = "text-danger mb-0"
-  arryParagraph[4].className = "text-danger mb-0"
+  arryParagraph[0].className = "p-from-mc text-danger mb-0"
+  arryParagraph[1].className = "p-from-mc text-danger mb-0"
+  arryParagraph[2].className = "p-from-mc text-white mb-0"
+  arryParagraph[3].className = "p-from-mc text-danger mb-0"
+  arryParagraph[4].className = "p-from-mc text-danger mb-0"
   console.log("mini item Tres");
   let arry = [...miniCarrouselItems]
   let arryImages = [...miniCarrouselImages] 
@@ -357,11 +357,11 @@ miniItemCarouselTres.addEventListener('mouseleave', (e) => {
 })
 miniItemCarouselCuatro.addEventListener('click', () => {
   activeItem=4;
-  arryParagraph[0].className = "text-danger mb-0"
-  arryParagraph[1].className = "text-danger mb-0"
-  arryParagraph[2].className = "text-danger mb-0"
-  arryParagraph[3].className = "text-white mb-0"
-  arryParagraph[4].className = "text-danger mb-0"
+  arryParagraph[0].className = "p-from-mc text-danger mb-0"
+  arryParagraph[1].className = "p-from-mc text-danger mb-0"
+  arryParagraph[2].className = "p-from-mc text-danger mb-0"
+  arryParagraph[3].className = "p-from-mc text-white mb-0"
+  arryParagraph[4].className = "p-from-mc text-danger mb-0"
   console.log("mini item Tres");
   let arry = [...miniCarrouselItems]
   let arryImages = [...miniCarrouselImages] 
@@ -392,11 +392,11 @@ miniItemCarouselCuatro.addEventListener('mouseleave', (e) => {
 })
 miniItemCarouselCinco.addEventListener('click', (e) => {
   activeItem=5;
-  arryParagraph[0].className = "text-danger mb-0"
-  arryParagraph[1].className = "text-danger mb-0"
-  arryParagraph[2].className = "text-danger mb-0"
-  arryParagraph[3].className = "text-danger mb-0"
-  arryParagraph[4].className = "text-white mb-0"
+  arryParagraph[0].className = "p-from-mc text-danger mb-0"
+  arryParagraph[1].className = "p-from-mc text-danger mb-0"
+  arryParagraph[2].className = "p-from-mc text-danger mb-0"
+  arryParagraph[3].className = "p-from-mc text-danger mb-0"
+  arryParagraph[4].className = "p-from-mc text-white mb-0"
   console.log("mini item Tres");
   let arry = [...miniCarrouselItems]
   let arryImages = [...miniCarrouselImages] 
