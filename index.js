@@ -157,8 +157,10 @@ function move(e) {
           console.log(arry.children)
           if(i !== 0){
             currentPositionCardHover = i;
+            activeItem-=1;
           }else{
             currentPositionCardHover = arry.length;
+            activeItem=5;
             // mainCarrouselContainer.removeEventListener("mousemove", lock);
             // mainCarrouselContainer.removeEventListener("mouseup", move);
           }
@@ -188,8 +190,10 @@ function move(e) {
           console.log(arry.children)
           if(i !== arry.length -1){
             currentPositionCardHover = i;
+            activeItem +=1;
           }else{
             currentPositionCardHover = -1;
+            activeItem=1;
             // mainCarrouselContainer.removeEventListener("mousemove", lock);
             // mainCarrouselContainer.removeEventListener("mouseup", move);
           }

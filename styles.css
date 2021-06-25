@@ -195,7 +195,16 @@ footer div i{
     animation-delay: 0s;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-fill-mode: forwards;  
+    animation-fill-mode:both;  
+}
+.card-animation-y{
+    animation-name: mover;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:both;  
 }
 .pointer-style{
     pointer-events:all;

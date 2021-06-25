@@ -32,7 +32,7 @@ img {
 }
 
 .height-main-art-img {
-    height: 20rem;
+    /* height: 20rem; */
 }
 
 .width-10 {
@@ -86,7 +86,7 @@ img {
         padding: 0;
     }
     .height-main-art-img {
-        height: 15rem;
+        /* height: 15rem; */
     }
     .height-recomended-article {
         height: 40vh;
@@ -121,7 +121,7 @@ img {
         padding: 0;
     }
     .height-main-art-img {
-        height: 15rem;
+        /* height: 15rem; */
     }
     .height-recomended-article {
         height: 45vh;
@@ -153,7 +153,7 @@ img {
 }
 @media (max-width: 576px) {
     .height-main-art-img {
-        height: 10rem;
+        /* height: 10rem; */
     }
     .height-recomended-article {
         height: 35vh;
