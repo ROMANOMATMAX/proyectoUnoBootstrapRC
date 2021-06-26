@@ -148,6 +148,23 @@ list-style: none;
 .redes ul li a:visited{
     color: black;
 }
+@media screen and (max-width: 695px) {
+    .ocultar-div{
+    display:none;
+    }
+    }
+
+
+
+/* redes mobile */
+.redes-mobile {
+    left: 15%;
+}
+@media screen and (min-width: 696px) {
+    .ocultar-div-pantalla-pc{
+    display:none;
+    }
+    }
 
 /* footer */
 
