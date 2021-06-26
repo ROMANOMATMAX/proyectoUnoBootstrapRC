@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./stylesVistaArticulo.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html" target="_blank">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Articulos
+                </a>
+                <ul class="dropdown-menu border-0 bg-transparent  dropdown-fondo" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
+                    </a></li>
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas valorados</a></li>
+                </ul>
+              </li>
+            </ul>
+    
+            <div class=" me-auto ">
+              <form class="d-flex m-auto">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-light btn-dark" type="submit"> <i class="fas fa-search"></i></button>
+              </form>
+            </div>
+    
+            <ul class="nav navbar-nav navbar-right align-items-center">
+              <li><button type="button" class="btn btn-dark mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ingresar
+                </button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- seccion redes costado -->
+      <section class="redes">
+        <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons ">
+          <ul>
+            <li class="redes-articulos"> <a class="text-black" href=""> <i class="fab fa-facebook "></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-instagram"></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-google-plus-g"></i></a></li>
+          </ul>
+        </div>
+      </section>
+    
+    
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content text-light bg-transparent modal-fondo">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center ">
+              <form action="d-flex justify-content-center ">
+                <div class="d-flex justify-content-center flex-column">
+                  <label for="">Correo</label>
+                  <input type="email" required>
+                  <br>
+                  <label for="">Contraseña</label>
+                  <input type="password" required>
+                  <br>
+                  <button class=" btn-outline-dark btn-light" type="submit">Enviar</button>
+                  <br>
+                  <label for=""><a href="register.html">Registrarse</a></label>
+                </div>
+              </form>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HEADER -->
+    <section class="px-md-5 container mt-4 font-size-section-1 overflow-hidden">
+        <p><a href="">BLOG</a> | <a href="">INDUSTRIA MUSICAL</a></p>
+        <h1>Lo mejor de Estambul para visitar</h1>
+        <p>por: <a href="">Chiara Colasanti</a> | June 10, 2021 | 0 comentarios</p>
+        <div class="card-animation height-main-art-img">
+            <img src="./img/estambul-city.jpg" alt="" class="main-article-img">
+        </div>
+    </section>
+    <section class="px-md-5 container mt-3 font-size-section-2 overflow-hidden">
+        <div class="row">
+            <main class="col-lg-9">
+                <article>
+                    <div>
+                        <p>Estambul es uno de los grandes destinos viajeros del mundo y no extraña saber que es una de las ciudades más visitadas.</p>
+                        <p>Su magnífico emplazamiento sobre dos continentes, la enorme cantidad y calidad de sus monumentos históricos, su vitalidad moderna, su gastronomía además de su buena oferta hotelera, todo hace de Estambul un clásico en las listas de los viajes deseados.</p>
+                        <p>Estambul es una ciudad inmensa, la más poblada de Europa, y ha sido capital de los imperios bizantino y otomano.</p>
+                        <p>Es tal la cantidad de lugares atractivos e interesantes. que ofrece que es literalmente imposible conocerlos todos en una visita de unos pocos días, siempre quedarán cosas pendientes que justificarán una nueva visita.</p>
+                    </div>
+                    <h3 class="text-center">Mezquita Azul</h3>
+                    <div class="mb-3 img-article-page">
+                        <img src="./img/mezquita-azul-estambul.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>La mezquita del Sultán Ahmet, conocida por todos como la Mezquita Azul, es uno de los monumentos más apreciados por los visitantes.</p>
+                        <p>Es la última gran mezquita imperial de importancia. Ocupa una parte de los terrenos del Hipódromo y del Gran Palacio bizantino.</p>
+                        <p>Se accede a través de un patio porticado que tiene las mismas dimensiones que la sala de oración.</p>
+                        <p>Al entrar deslumbra la luz que entra por sus 260 ventanas y hace brillar los 20.000 azulejos de Iznik que cubren el interior.</p>
+                        <p>El sobrenombre de la mezquita se debe a que la mayoría de estos azulejos son de color azul, turquesa y verde.</p>
+                    </div>
+                    <h3 class="text-center">Pequeña Santa Sofia</h3>
+                    <div class="mb-3 img-article-page">
+                        <img src="./img/santa-sofia-estambul.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Si se tiene un poco de tiempo, conviene acercarse a la antigua iglesia de San Sergio y San Baco, que se encuentra a unos 500 metros de la Mezquita Azul.</p>
+                        <p>Como la inmensa mayoría de las iglesias bizantinas, fue convertida en mezquita tras la conquista otomana, añadiéndole el alminar y un pórtico.</p>
+                        <p>Fue construida en la primera mitad del siglo VI por orden de la emperatriz Teodora. Ha sido restaurada hace pocos años.</p>
+                        <p>Tiene una estructura curiosa, la de un cuadrángulo irregular en el que se inscribe un octógono que sujeta la cúpula.</p>
+                        <p>Entre los detalles más interesantes están los capiteles que coronan las columnas de mármol; algunos de ellos todavía muestran los monogramas de Justiniano y Teodora.</p>
+                    </div>
+                    <h3 class="text-center">Palacio de Topkapi</h3>
+                    <div class="mb-3 img-article-page">
+                        <img src="./img/palacio-topkapi-estambul.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>El palacio Topkapi, o Topkapi Sarayi, es el gran palacio de los sultanes en Constantinopla, es el mayor y el más importante monumento de arquitectura civil otomana.</p>
+                        <p>Fue la residencia de los sultanes otomanos y sede del poder político del imperio desde mediados del siglo XV hasta mediados del XIX.</p>
+                        <p>Además de su valor arquitectónico e histórico, es un verdadero museo que muestra una cantidad casi incalculable de joyas, manuscritos, porcelanas, armaduras, tejidos riquísimos y obras de arte que pertenecieron a los sultanes.</p>
+                        <p>Un recorrido completo incluye pabellones, salas del Tesoro, el Harén y una bellísima panorámica sobre el Bósforo.</p>
+                        <p>En el camino es fácil que la imaginación vuele al pensar en historias repletas de misterios e intrigas en las que participan sultanes, visires, eunucos, odaliscas, jenízaros y concubinas.</p>
+                    </div>
+                </article>
+            </main>
+            <aside class="col-lg-3 text-center">
+                <h3>También te puede interesar</h3>
+            <div class="height-anuncio-articulo img-article-page">
+                <img src="./img/despegar.jpg" alt="" class="aside-img">
+            </div>
+            <h3 class="mt-4">COMUNIDAD</h3>
+            <div>
+              <ul class="nav nav-tabs flex-nowrap text font-size-list-aside" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#homeDos" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profileDos" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contactDos" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="homeDos" role="tabpanel" aria-labelledby="home-tab">
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profileDos" role="tabpanel" aria-labelledby="profile-tab">
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contactDos" role="tabpanel" aria-labelledby="profile-tab">
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="height-anuncio-articulo img-article-page">
+              <img src="./img/airbnb.jpg" alt="" class="aside-img">
+            </div>
+            </aside>
+        </div>
+    </section>
+    <section class="margin-10 font-size-section-3">
+        <hr>
+        <div class="d-flex justify-content-around">
+            <p> <i class="far fa-comment"></i> 0 comentarios</p>
+            <p>0 <a href=""><i class="far fa-heart"></i></a></p>
+        </div>
+        <hr>
+        <div class="d-flex">
+            <div class="square-avatar-article">
+                <img src="./img/avatar.jpg" alt="" class="w-100 avatar-img">
+            </div>
+            <p class="px-4"><a href="">CHIARA COLASANTI</a></p>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-around my-5">
+            <a href="" class="btn btn-danger">Post anterior</a>
+            <a href="" class="btn btn-danger">Post siguiente</a>
+        </div>
+    </section>
+    <section class="container text-center text-md-start font-size-section-4">
+        <h3>También te puede interesar</h3>
+        <div class="row mb-3">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-auto w-100" style="width: 18rem;">
+                <div class="height-recomended-article">
+                    <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
+                </div>
+                <div class="card-body">
+                <a href=""><h5 class="card-title text-center">Card title</h5></a>
+                <p class="card-text text-center text-dark">June 10, 2017</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-auto w-100" style="width: 18rem;">
+                <div class="height-recomended-article">
+                    <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
+                </div>
+                <div class="card-body">
+                <a href=""><h5 class="card-title text-center">Card title</h5></a>
+                <p class="card-text text-center text-dark">June 10, 2017</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-auto w-100" style="width: 18rem;">
+                <div class="height-recomended-article">
+                    <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
+                </div>
+                <div class="card-body">
+                <a href=""><h5 class="card-title text-center">Card title</h5></a>
+                <p class="card-text text-center text-dark">June 10, 2017</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-auto w-100" style="width: 18rem;">
+                <div class="height-recomended-article">
+                    <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
+                </div>
+                <div class="card-body">
+                <a href=""><h5 class="card-title text-center">Card title</h5></a>
+                <p class="card-text text-center text-dark">June 10, 2017</p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="container my-4 font-size-section-5">
+        <div class="costumized-container-form-news-letter">
+            <form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu correo electrónico">
+                <button type="submit" class="btn btn-danger w-100 my-4">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-dark text-light mt-auto flex-wrap">
+        <div class="py-2 bg-dark text-center mb-0 nosotros-footer"> <p>Nosotros</p> </div>
+    
+        <div class="d-flex flex-wrap">
+    
+          <div class="col-12 px-3 col-md-3 ">
+            <p><i class="fab fa-fly"></i></p>
+            <p>2021©</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> ¿Que hacemos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque debitis molestias, sed earum eos,.</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> ¿Quienes somos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque debitis molestias, sed earum eos,</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> Contactanos!</p>
+            <a href="">Contacto</a>
+            <a href=""></a>
+          </div>
+          
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./vistaArticulo.js"></script>
+</body>
+</html>

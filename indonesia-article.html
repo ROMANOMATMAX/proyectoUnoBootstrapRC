@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./stylesVistaArticulo.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html" target="_blank">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Articulos
+                </a>
+                <ul class="dropdown-menu border-0 bg-transparent  dropdown-fondo" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
+                    </a></li>
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
+                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas valorados</a></li>
+                </ul>
+              </li>
+            </ul>
+    
+            <div class=" me-auto ">
+              <form class="d-flex m-auto">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-light btn-dark" type="submit"> <i class="fas fa-search"></i></button>
+              </form>
+            </div>
+    
+            <ul class="nav navbar-nav navbar-right align-items-center">
+              <li><button type="button" class="btn btn-dark mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ingresar
+                </button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- seccion redes costado -->
+      <section class="redes">
+        <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons ">
+          <ul>
+            <li class="redes-articulos"> <a class="text-black" href=""> <i class="fab fa-facebook "></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-instagram"></i></a></li>
+            <li class="redes-articulos"> <a href=""> <i class="fab fa-google-plus-g"></i></a></li>
+          </ul>
+        </div>
+      </section>
+    
+    
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content text-light bg-transparent modal-fondo">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center ">
+              <form action="d-flex justify-content-center ">
+                <div class="d-flex justify-content-center flex-column">
+                  <label for="">Correo</label>
+                  <input type="email" required>
+                  <br>
+                  <label for="">Contraseña</label>
+                  <input type="password" required>
+                  <br>
+                  <button class=" btn-outline-dark btn-light" type="submit">Enviar</button>
+                  <br>
+                  <label for=""><a href="register.html">Registrarse</a></label>
+                </div>
+              </form>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HEADER -->
+    <section class="px-md-5 container mt-4 font-size-section-1 overflow-hidden">
+        <p><a href="">BLOG</a> | <a href="">INDUSTRIA MUSICAL</a></p>
+        <h1>Lo mejor de Indonesia para visitar</h1>
+        <p>por: <a href="">Chiara Colasanti</a> | June 10, 2021 | 0 comentarios</p>
+        <div class="card-animation height-main-art-img">
+            <img src="./img/indonesia-portada.jpg" alt="" class="main-article-img">
+        </div>
+    </section>
+    <section class="px-md-5 container mt-3 font-size-section-2 overflow-hidden">
+        <div class="row">
+            <main class="col-lg-9">
+                <article>
+                    <div>
+                        <p>Hay muchas razones para visitar Indonesia, desde la cultura a la gente, de los animales a las plantas, de las obras de arte a la comida…. realmente no se parece a ningún otro lugar en la tierra. El archipiélago indonesio te permite experimentar una gran variedad de cosas, todo en un solo lugar. Visitar playas y volcanes, ver dragones y bucear por las mejores sistemas coralinos del mundo, surfear en aguas impresionantes, visitar templos sagrados. ¡Visitar Indonesia es como viajar en 100 países diferentes a la vez!</p>
+                        <p>En nuestro blog queremos hacerte las cosas más fáciles y contarte nuestra experiencia en el país para que puedas planificar mejor tu próximo viaje en Indonesia.</p>
+                    </div>
+                    <h3 class="text-center">¿CUÁL ES LA MEJOR DE LAS ISLAS GILI?</h3>
+                    <div class="mb-3 img-article-page">
+                        <img src="./img/islas-indonesia.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Sus idílicas playas, unas puestas de sol de ensueño y la relajada vida isleña enamoran a todo aquel que las visita. Se convierten así, en la guinda del pastel de un gran viaje por Indonesia</p>
+                        <p>Aunque en los últimos años el turismo ha crecido enormemente en este archipiélago, todavía se respira un aire hippie y diferente en las Gilis. El hecho de que sean islas donde no circulen coches y la única manera de moverte sea caminando, en bici o en carro de caballos, hace que las Gilis sean unas islas de relax total.</p>
+                        <p>No hay isla Gili que sea mejor que otra porque cada una de ellas puede ser la ideal para un determinado tipo de viajero. A veces, resulta un poco difícil elegir en cuál de las Gilis terminar tu viaje. De todas formas, nosotros estamos por aquí, y una vez nos comentes qué tipo de viaje estás buscando, te explicaremos y te recomendaremos la Isla perfecta.</p>
+                    </div>
+                    <h3 class="text-center">RAJA AMPAT, PAPUA OCCIDENTAL</h3>
+                    <div class="mb-3 img-article-page">
+                        <img src="./img/raja-ampata-indonesia.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Hablamos de uno de esos destinos remotos que hará que te sientas pionero en tierras casi desconocidas. En Raja Ampat se puede vivir la sensación de bucear donde ningún hombre se ha sumergido antes y sentir el placer de recorrer sus islas y aldeas casi a solas.</p>
+                        <p>Los mares y tierras de Raja Ampat aseguran un viaje con mayúsculas, y aunque hasta ahora ha sido un destino enfocado a los amantes del mundo submarino, esta parte de la Papua Occidental se ha convertido en ese paraíso que hace las delicias de muchos tipos de viajeros.</p>
+                        <p>Sobre la superficie, mil islas forman un archipiélago milagroso, muchas deshabitadas y cubiertas por una selva virgen llena de criaturas mágicas, como las icónicas aves del paraíso. Una gran oportunidad para los que quieren ir más allá en su viaje por Indonesia. Déjate llevar por los guías locales y adéntrate en una fascinante fusión cultural visitando aldeas donde, con la ayuda de los guías locales, podrás conocer de primera mano la historia de sus habitantes y sus orígenes.</p>
+                        <p>Raja Ampat, una gran oportunidad para los que quieren ir más allá en su viaje por Indonesia.</p>
+                    </div>
+                    <h3 class="text-center">SURCANDO LOS MARES DE KOMODO</h3>
+                    <div class="mb-3 img-article-page">
+                        <img src="./img/komodo-indonesia.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Conocidas por muchos por los ancestrales dragones que siguen dominando sus tierras, y populares para otros por los miles de mantas rayas que surcan sus mares, las islas de Komodo siguen siendo ese paraíso que hace las delicias de aquellos exploradores en busca de su aventura en Indonesia.</p>
+                        <p>Estamos en la zona centro del archipiélago indonesio, entre las islas de Sumbawa y Flores. Lo que es el Parque Nacional, está compuesto por tres islas principales (Rinca, Komodo y Padar) y otras muchas pequeñas islas e islotes. Todas ellas de origen volcánico. En 1980 se estableció como Parque Nacional para proteger al lagarto más grande del mundo que allí habita, el Dragón de Komodo, y en 1991 fue reconocido por la UNESCO como Patrimonio de la Humanidad.</p>
+                        <p>Con uno de los entornos marinos más ricos del mundo habitado por tortugas, tiburones, ballenas, dugongos y mantarrayas entre otros, las escarpadas laderas y la vegetación seca de estas islas contrastan con las playas de arena blanca y las aguas azules turquesa de las que se puede disfrutar por aquí.</p>
+                    </div>
+                    <!-- <div class="mb-3 img-article-page">
+                        <img src="./img/jamaica_bd82f235.jpg" alt="">
+                    </div> -->
+                </article>
+            </main>
+            <aside class="col-lg-3 text-center">
+                <h3>También te puede interesar</h3>
+            <div class="height-anuncio-articulo img-article-page">
+                <img src="./img/despegar.jpg" alt="" class="aside-img">
+            </div>
+            <h3 class="mt-4">COMUNIDAD</h3>
+            <div>
+              <ul class="nav nav-tabs flex-nowrap text font-size-list-aside" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#homeDos" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profileDos" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contactDos" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="homeDos" role="tabpanel" aria-labelledby="home-tab">
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profileDos" role="tabpanel" aria-labelledby="profile-tab">
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contactDos" role="tabpanel" aria-labelledby="profile-tab">
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                  </div>
+                  <div>
+                    <p class="comment-text-size text-start m-0 mt-2">Respecto a: <a href="">Londres</a></p>
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="square-avatar"><img src="./img/avatar.jpg" alt="" class="aside-img"></div>
+                      <p class="comment-text-size m-0">Username</p>
+                    </div>
+                    <p class="comment-text-size text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <hr>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="height-anuncio-articulo img-article-page">
+              <img src="./img/airbnb.jpg" alt="" class="aside-img">
+            </div>
+            </aside>
+        </div>
+    </section>
+    <section class="margin-10 font-size-section-3">
+        <hr>
+        <div class="d-flex justify-content-around">
+            <p> <i class="far fa-comment"></i> 0 comentarios</p>
+            <p>0 <a href=""><i class="far fa-heart"></i></a></p>
+        </div>
+        <hr>
+        <div class="d-flex">
+            <div class="square-avatar-article">
+                <img src="./img/avatar.jpg" alt="" class="w-100 avatar-img">
+            </div>
+            <p class="px-4"><a href="">CHIARA COLASANTI</a></p>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-around my-5">
+            <a href="" class="btn btn-danger">Post anterior</a>
+            <a href="" class="btn btn-danger">Post siguiente</a>
+        </div>
+    </section>
+    <section class="container text-center text-md-start font-size-section-4">
+        <h3>También te puede interesar</h3>
+        <div class="row mb-3">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-auto w-100" style="width: 18rem;">
+                <div class="height-recomended-article">
+                    <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
+                </div>
+                <div class="card-body">
+                <a href=""><h5 class="card-title text-center">Card title</h5></a>
+                <p class="card-text text-center text-dark">June 10, 2017</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-auto w-100" style="width: 18rem;">
+                <div class="height-recomended-article">
+                    <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
+                </div>
+                <div class="card-body">
+                <a href=""><h5 class="card-title text-center">Card title</h5></a>
+                <p class="card-text text-center text-dark">June 10, 2017</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-auto w-100" style="width: 18rem;">
+                <div class="height-recomended-article">
+                    <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
+                </div>
+                <div class="card-body">
+                <a href=""><h5 class="card-title text-center">Card title</h5></a>
+                <p class="card-text text-center text-dark">June 10, 2017</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-auto w-100" style="width: 18rem;">
+                <div class="height-recomended-article">
+                    <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
+                </div>
+                <div class="card-body">
+                <a href=""><h5 class="card-title text-center">Card title</h5></a>
+                <p class="card-text text-center text-dark">June 10, 2017</p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="container my-4 font-size-section-5">
+        <div class="costumized-container-form-news-letter">
+            <form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu correo electrónico">
+                <button type="submit" class="btn btn-danger w-100 my-4">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-dark text-light mt-auto flex-wrap">
+        <div class="py-2 bg-dark text-center mb-0 nosotros-footer"> <p>Nosotros</p> </div>
+    
+        <div class="d-flex flex-wrap">
+    
+          <div class="col-12 px-3 col-md-3 ">
+            <p><i class="fab fa-fly"></i></p>
+            <p>2021©</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> ¿Que hacemos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque debitis molestias, sed earum eos,.</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> ¿Quienes somos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque debitis molestias, sed earum eos,</p>
+          </div>
+          <div class="col-12 px-3 col-md-3">
+            <p> Contactanos!</p>
+            <a href="">Contacto</a>
+            <a href=""></a>
+          </div>
+          
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./vistaArticulo.js"></script>
+</body>
+</html>
