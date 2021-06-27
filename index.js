@@ -22,8 +22,6 @@ const miniItemCarouselDos = document.getElementById("mini-item-carousel-2");
 const miniItemCarouselTres = document.getElementById("mini-item-carousel-3");
 const miniItemCarouselCuatro = document.getElementById("mini-item-carousel-4");
 const miniItemCarouselCinco = document.getElementById("mini-item-carousel-5");
-const listOfCardsFromBT = document.getElementsByClassName("card");
-let arryBT = [...listOfCardsFromBT]
 const amountOfImgInCarrousel =  mainCarrouselContainer.children.length;
 console.log("Children amount", amountOfImgInCarrousel);
 
@@ -129,11 +127,6 @@ window.addEventListener('scroll', function () {
   arry.forEach(card => {
     if(card.getBoundingClientRect().top < window.innerHeight){
       card.classList.add("card-animation");
-    }
-  });
-  arryBT.forEach(card => {
-    if(card.getBoundingClientRect().top < window.innerHeight){
-      card.classList.add("card-animation-y");
     }
   });
 })

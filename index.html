@@ -71,8 +71,8 @@
   </nav>
 
   <!-- seccion redes costado -->
-  <section class="redes">
-    <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons ">
+  <section class="redes ocultar-div">
+    <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons">
       <ul>
         <li class="redes-articulos"> <a class="text-black" href=""> <i class="fab fa-facebook "></i></a></li>
         <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
@@ -81,6 +81,15 @@
       </ul>
     </div>
   </section>
+
+<!-- seccion redes mobile -->
+<section class="redes  ocultar-div-pantalla-pc">
+  <div class=" position-fixed bottom-0 bg-transparent redes-icons redes-mobile">
+    <ul class="">
+      <li class="redes-articulos"> <a class="text-black" href=""><i class="fab fa-facebook p-3"></i></a><a href=""><i class="fab fa-twitter p-3"></i></a><a href=""><i class="fab fa-instagram p-3"></i></a><a href=""><i class="fab fa-google-plus-g p-3"></i></a></li>
+    </ul>
+  </div>
+</section>
 
 
   <!-- Modal -->
@@ -383,535 +392,247 @@
         </ul>
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <table class="table align-middle table-borderless">
+            <table class="table table-dark table-bordered align-middle">
               <tbody>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                      <div class="container-img-card position-relative">
-                        <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                          <ul class="details">
-                            <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                            <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                            <li class="d-flex align-items-start">
-                              <span><i class="fas fa-tag"></i></span>
-                              <ul class="d-flex list-unstyled">
-                                <li class="mx-1"><a href="#">Learn</a></li>
-                                <li class="mx-1"><a href="#">Code</a></li>
-                                <li class="mx-1"><a href="#">HTML</a></li>
-                                <li class="mx-1"><a href="#">CSS</a></li>
-                              </ul>
-                            </li>
-                        </ul>
-                      </div>
-                      <div class="py-3 dont-show-article-info">
-                        <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                      <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href="./vista_articulo.html"><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                      </div>
-                      <div class="font-size-section-3">
-                        <a href="" class="btn btn-danger">Read more</a>
-                      </div>
+                      <p>user</p>
                       </div>
                   </th>
-                  <td class="dont-show-column py-5">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                        <hr class="text-danger hr-width hr-padding opacity-one">
-                        <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                        </a>
-                        <div class="styles-read-more div-read-more">
-                          <a href="" class="text-decoration-none last-column">read more</a>
-                          <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                        </div>
+                  <td class="dont-show-column">
+                      <a href="./vista_articulo.html" target="a_blank"><h1>Title 1</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
+                  <th scope="row" class="align-middle">
                       <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
+                  <th scope="row" class="align-middle">
                       <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
+                  <th scope="row" class="align-middle">
                       <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <table class="table align-middle table-borderless">
+            <table class="table table-dark table-bordered align-middle">
               <tbody>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                      <div class="container-img-card position-relative">
-                        <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                          <ul class="details">
-                            <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                            <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                            <li class="d-flex align-items-start">
-                              <span><i class="fas fa-tag"></i></span>
-                              <ul class="d-flex list-unstyled">
-                                <li class="mx-1"><a href="#">Learn</a></li>
-                                <li class="mx-1"><a href="#">Code</a></li>
-                                <li class="mx-1"><a href="#">HTML</a></li>
-                                <li class="mx-1"><a href="#">CSS</a></li>
-                              </ul>
-                            </li>
-                        </ul>
-                      </div>
-                      <div class="py-3 dont-show-article-info">
-                        <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                      <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/bali-indonesia_5ae3dbfe.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                      </div>
-                      <div class="font-size-section-3">
-                        <a href="" class="btn btn-danger">Read more</a>
-                      </div>
+                      <p>user</p>
                       </div>
                   </th>
-                  <td class="dont-show-column py-5">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                        <hr class="text-danger hr-width hr-padding opacity-one">
-                        <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                        </a>
-                        <div class="styles-read-more div-read-more">
-                          <a href="" class="text-decoration-none last-column">read more</a>
-                          <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                        </div>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
-                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/bali-indonesia_5ae3dbfe.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
-                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/bali-indonesia_5ae3dbfe.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
-                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/bali-indonesia_5ae3dbfe.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <table class="table align-middle table-borderless">
+            <table class="table table-dark table-bordered align-middle">
               <tbody>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                      <div class="container-img-card position-relative">
-                        <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                          <ul class="details">
-                            <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                            <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                            <li class="d-flex align-items-start">
-                              <span><i class="fas fa-tag"></i></span>
-                              <ul class="d-flex list-unstyled">
-                                <li class="mx-1"><a href="#">Learn</a></li>
-                                <li class="mx-1"><a href="#">Code</a></li>
-                                <li class="mx-1"><a href="#">HTML</a></li>
-                                <li class="mx-1"><a href="#">CSS</a></li>
-                              </ul>
-                            </li>
-                        </ul>
-                      </div>
-                      <div class="py-3 dont-show-article-info">
-                        <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                      <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/nueva-york_66d209da.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                      </div>
-                      <div class="font-size-section-3">
-                        <a href="" class="btn btn-danger">Read more</a>
-                      </div>
+                      <p>user</p>
                       </div>
                   </th>
-                  <td class="dont-show-column py-5">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                        <hr class="text-danger hr-width hr-padding opacity-one">
-                        <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                        </a>
-                        <div class="styles-read-more div-read-more">
-                          <a href="" class="text-decoration-none last-column">read more</a>
-                          <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                        </div>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
-                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/nueva-york_66d209da.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
-                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/nueva-york_66d209da.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row" class="align-middle py-3 py-md-5 py-0 ">
-                    <div class="container-img-card position-relative">
-                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/jamaica_bd82f235.jpg" class="table-img-styles" alt=""></a></div>
-                        <ul class="details">
-                          <li class="author"><span><i class="fas fa-user"></i><p class="px-2 d-inline">Mati Romano</p></span></li>
-                          <li class="date"><span><i class="far fa-calendar-alt"></i></span><p class="px-2 d-inline">Aug. 24, 2015</p></li>
-                          <li class="d-flex align-items-start">
-                            <span><i class="fas fa-tag"></i></span>
-                            <ul class="d-flex list-unstyled">
-                              <li class="mx-1"><a href="#">Learn</a></li>
-                              <li class="mx-1"><a href="#">Code</a></li>
-                              <li class="mx-1"><a href="#">HTML</a></li>
-                              <li class="mx-1"><a href="#">CSS</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="py-3 dont-show-article-info">
-                      <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><h1>Title</h1></a>
-                    <hr class="text-danger hr-width hr-padding text-center opacity-one">
-                    <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
-                    </a>
-                    <div class="styles-read-more div-read-more">
-                      <a href="" class="text-decoration-none last-column">read more</a>
-                      <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
-                    </div>
-                    <div class="font-size-section-3">
-                      <a href="" class="btn btn-danger">Read more</a>
-                    </div>
-                    </div>
-                </th>
-                <td class="dont-show-column py-5">
-                    <a href="./vista_articulo.html" target="a_blank" class="text-decoration-none text-dark"><p class="h3">Title 1</h1></a>
-                      <hr class="text-danger hr-width hr-padding opacity-one">
-                      <a href="" target="a_blank" class="text-decoration-none text-dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                  <th scope="row" class="align-middle">
+                      <div class="table-img-container"><a href="" class="h-100"><img src="./img/nueva-york_66d209da.jpg" class="table-img-styles" alt=""></a></div>
+                      <div class="dont-show-article-info">
+                        <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
                       </a>
-                      <div class="styles-read-more div-read-more">
-                        <a href="" class="text-decoration-none last-column">read more</a>
-                        <span class="px-2"><a href="" class="text-danger"><i class="fas fa-arrow-right"></i></a></span>
+                      <p>user</p>
                       </div>
-                </td>
+                  </th>
+                  <td class="dont-show-column">
+                      <a href=""><h1>Title</h1></a>
+                      <hr>
+                      <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum praesentium amet autem voluptate distinctio ex repellat dignissimos ut nobis,.</p>
+                      </a>
+                      <p>user</p>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -1321,7 +1042,7 @@
             <img src="./img/test-img-galery.jpg" alt="" class="aside-img w-100">
         </div>
         <p>COMUNIDAD</p>
-        <div class="my-5 my-md-4">
+        <div>
           <ul class="nav nav-tabs flex-nowrap text font-size-list-aside" id="myTabDos" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#homeDos" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
@@ -1433,76 +1154,21 @@
     
     <!--  -->
     <!-- SECCION DISTRIBUYE TU MUSICA -->
-    <section class="container text-center my-5 px-md-5 px-lg-5 height-bottom-img overflow-hidden">
+    <section class="container text-center my-4 px-md-5 px-lg-5 height-bottom-img overflow-hidden">
       <div class="img-article-page h-100 ">
         <a class="d-block h-100 w-100" href=""><img class="w-100 aside-img" src="./img/barcelona_491e8d18.jpg" alt=""></a>
       </div>
     </section>
-    <!-- Seccion tambien te puede interesar -->
-    <section class="px-md-5 px-lg-5 container my-0 my-md-5 text-center text-md-start font-size-section-4">
-      <h3>También te puede interesar</h3>
-      <div class="row mb-3">
-        <div class="my-2 my-md-0 col-12 col-md-6 col-lg-3">
-          <div class="card m-auto w-100" style="width: 18rem;">
-              <div class="height-recomended-article">
-                  <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
-              </div>
-              <div class="card-body">
-              <a href="" target="a_blank" class="text-decoration-none text-dark"><p class="h3 card-title text-center">Card title</p></a>
-              <p class="card-text text-center text-dark">June 10, 2017</p>
-              </div>
-          </div>
-        </div>
-        <div class="my-2 my-md-0 col-12 col-md-6 col-lg-3">
-          <div class="card m-auto w-100" style="width: 18rem;">
-              <div class="height-recomended-article">
-                  <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
-              </div>
-              <div class="card-body">
-                <a href="" target="a_blank" class="text-decoration-none text-dark"><p class="h3 card-title text-center">Card title</p></a>
-              <p class="card-text text-center text-dark">June 10, 2017</p>
-              </div>
-          </div>
-        </div>
-        <div class="my-2 my-md-0 col-12 col-md-6 col-lg-3">
-          <div class="card m-auto w-100" style="width: 18rem;">
-              <div class="height-recomended-article">
-                  <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
-              </div>
-              <div class="card-body">
-                <a href="" target="a_blank" class="text-decoration-none text-dark"><p class="h3 card-title text-center">Card title</p></a>
-              <p class="card-text text-center text-dark">June 10, 2017</p>
-              </div>
-          </div>
-        </div>
-        <div class="my-2 my-md-0 col-12 col-md-6 col-lg-3">
-          <div class="card m-auto w-100" style="width: 18rem;">
-              <div class="height-recomended-article">
-                  <a href="" class="h-100 w-100"><img src="./img/phuket_b973ead8.jpg" class="card-img-top adjust-img" alt="..."></a>
-              </div>
-              <div class="card-body">
-              <a href="" target="a_blank" class="text-decoration-none text-dark"><p class="h3 card-title text-center">Card title</p></a>
-              <p class="card-text text-center text-dark">June 10, 2017</p>
-              </div>
-          </div>
-        </div>
-      </div>
-  </section>
     <!-- SECCION NEWS LETTER -->
-    <section class="container text-center text-sm-center text-md-start my-5 px-md-5 px-lg-5">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-6">
-          <h4>¡Inspírate para tu próximo viaje!</h4>
-          <p>Recibe las últimas novedades del blog.</p>
-        </div>
-        <div class="costumized-container-form-news-lette col-12 col-sm-12 col-md-6">
+    <section class="container my-4">
+        <div class="costumized-container-form-news-letter">
             <form>
                 <div class="mb-3">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu e-mail">
-                <button type="submit" class="btn btn-danger w-100 my-4">Submit</button>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu correo electrónico">
+                <button type="submit" class="btn btn-primary w-100 my-4">Submit</button>
             </form>
         </div>
-      </div>
     </section>
     <!-- FOOTER -->
     <footer class="bg-dark text-light mt-auto flex-wrap">

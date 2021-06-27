@@ -81,6 +81,20 @@ img {
     width: 50px;
 } */
 
+/* primera imagen articulo */
+
+.foto-nuevayork{
+    background: url(./img/nueva-york1.jpg);
+}
+
+.h1-articulo{
+   
+    height: 30rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:  50px;
+}
+
+
 @media (max-width: 992px) {
     .costumized-container-form-news-letter {
         padding: 0;
