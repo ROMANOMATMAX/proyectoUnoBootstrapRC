@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./nosotros.css">
+  <link rel="shortcut icon" href="./img/icono.svg">
+
+  <title>Nosotros</title>
+</head>
+
+<body>
+  <!-- Nav y header  -->
+  <!-- NAVBAR -->
+
+
+  <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>cdcd
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html" target="_blank">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Articulos
+            </a>
+            <ul class="dropdown-menu border-0 bg-transparent  dropdown-fondo" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
+                </a></li>
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas valorados</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class=" me-auto ">
+          <form class="d-flex m-auto">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-light btn-dark" type="submit"> <i class="fas fa-search"></i></button>
+          </form>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right align-items-center">
+          <li><button type="button" class="btn btn-dark mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Ingresar
+            </button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- seccion redes costado -->
+  <section class="redes">
+    <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons">
+      <ul>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-facebook"></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-instagram"></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-google-plus-g"></i></a></li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content text-light bg-transparent modal-fondo">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex justify-content-center ">
+          <form action="d-flex justify-content-center ">
+            <div class="d-flex justify-content-center flex-column">
+              <label for="">Correo</label>
+              <input type="email" required>
+              <br>
+              <label for="">Contraseña</label>
+              <input type="password" required>
+              <br>
+              <button class=" btn-outline-dark btn-light" type="submit">Enviar</button>
+              <br>
+              <label for=""><a href="./register.html">Registrarse</a></label>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container pt-5">
+      <h3 class="titulo text-center">Nosotros</h3>
+    </div>
+  </header>
+  <!-- seccion informacion general -->
+
+
+  <div class="container">
+
+
+    <section class="mt-5 wow fadeIn">
+
+
+      <div class="row">
+
+
+        <div class="col-md-6 mb-4" id="imgui">
+
+          <img src="./img/nosotros1.jpg" class="img-fluid z-depth-1-half" alt="">
+
+        </div>
+
+        <div class="col-md-6 mb-4">
+
+
+          <h3 class="h3 mb-3">Somos un blog de viajes diferente</h3>
+          <p>Gracias por visitar nuestro blog,
+            <strong> ¡no sabes la ilusión que nos hace!.</strong>
+          </p>
+          <p> Contarte que llevamos muchos años viajando y después de visitar <strong>miles de lugares</strong> tanto en
+            Argentina como en el resto del mundo decidimos dar un pequeño paso y hacer realidad TravelWorld, un
+            <strong></strong>blog de viajes para los amantes de la aventura, los viajes y el senderismo. En el fondo no
+            podíamos resistirnos en contar y dar a conocer nuestro particular punto de vista de cada viaje.</p>
+          <p>Hoy en día nos hemos convertido en uno de los blogs referentes y más visitados, con más de <strong>500.000
+              visitas únicas mensuales</strong> y más de <strong>85.000 seguidores</strong> en las redes sociales.</p>
+          <p> <strong>¡No nos lo esperábamos!.</strong></p>
+
+
+          <hr>
+
+
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+
+    <!-- ================
+                  para todo         
+        ==================== -->
+
+    <div class="container">
+
+
+      <section class="mt-5 wow fadeIn">
+
+
+        <div class="row">
+          <div class="col-md-6 mb-4">
+
+
+            <h3 class="h3 mb-3">¡Queremos inspirarte!</h3>
+            <p>Sabemos que viajar a veces tiene su propio proceso de aventura, y no hablamos de cuando ya estás en el
+              destino, sino de cuando estás <strong>buscando información</strong> o <strong>inspirándote</strong> en la
+              jungla de Internet. Nuestro objetivo es hacer algo más fácil el viajar a <strong></strong>destinos
+              exóticos, de aventura y sobre todo relacionados con la montaña. Nuestro campo base es
+              <strong>Argentina</strong>, algo que vas a ver muy presente en nuestro blog.
+            </p>
+            <p>Queremos recalcarte que ante todo somos <strong>aventureros más que viajeros,</strong> y por ello hemos
+              querido trasladar en nuestro blog consejos para viajar, que rutas de senderismo elegir, comentarte hacerca
+              de ofertas que nos llegan para viajar más barato por nuestros viajes por Argentina y por el resto del
+              mundo. Como ves somos un tanto variados, algo que va muy en línea cuando planificamos un viaje.
+              <strong>¿Un viaje donde haya arte/cultura, playa o montaña?. ¡¡Siiii!!</strong></p>
+
+            <hr>
+
+
+
+          </div>
+
+          <div class="col-md-6 mb-4" id="imgui">
+
+            <img src="./img/nosotros2.jpg" class="img-fluid z-depth-1-half" alt="">
+
+          </div>
+
+
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+
+
+      <!--Section: Main info-->
+
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+      <section>
+
+        <h3 class="h3 text-center mb-5" style="text-shadow: 1px 1px 6px rgb(58, 56, 56);"><strong>Tecnologia
+            implementada</strong> </h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fab fa-html5 fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title" style="margin-left: 10px;">html5</h5>
+                <p class="grey-text">HTML 5 es la quinta revisión importante del lenguaje básico de la World Wide Web,
+                  HTML. HTML5 específica dos variantes de sintaxis para HTML: una «clásica», HTML, conocida como HTML5,
+                  y una variante XHTML conocida como sintaxis XHTML 5 que deberá servirse con sintaxis XML</p>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fab fa-css3-alt fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title" style="margin-left: 10px;">CSS</h5>
+                <p class="grey-text">CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para
+                  definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.
+                </p>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-file-code fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title" style="margin-left: 10px;">Bootstrap 5</h5>
+                <p class="grey-text">Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código
+                  abierto para diseño de sitios y aplicaciones web.</p>
+              </div>
+            </div>
+            <!--/Third row-->
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+
+            <p class="h5 text-center mb-4">Rolling Code</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gH8AionIVB0" allowfullscreen
+                style="width: 100%; height: 250px;"></iframe>
+            </div>
+            <p><strong>Rolling Code School </strong> es un lugar donde podés crecer y desarrollar tu pasión de
+              programar, acompañado no sólo por excelentes profesionales sino también en un ambiente de apoyo y amistad.
+            </p>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Grid row-->
+
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+
+
+      <p>
+        <button class="btn btn-primary p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2"
+          aria-expanded="false" aria-controls="collapseExample">
+          ¿Qué es Rolling Code?
+        </button>
+      </p>
+      <div class="collapse mb-3" id="collapse2">
+        <div class="card card-body">
+
+          <p>En <b>RollingCode</b> somos un equipo de profesionales apasionados y comprometidos.</p>
+          <p>Tenemos nuestra Factory, donde trabajamos desarrollando apps y sitios webs para nuestros clientes. También
+            contamos con un Labs, donde creamos nuestros propios software: investigamos productos, tecnologías y ponemos
+            en marcha MVPs para probarlos en el mercado y que luego puedan crecer por sí mismos. </p>
+
+          <p>Las puertas están siempre abiertas para quienes comparten nuestro propósito de generar un cambio en sus
+            vidas, quienes quieren crecer y desarrollarse en un entorno de compañerismo y profesionalismo.</p>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- ================
+                presentacion del equipo
+      ==================== -->
+    <hr>
+    <section class="container">
+      <h3 class="h3 mb-3 p-4 text-center">Desarrolladores</h3>
+      <div class="d-flex flex-wrap justify-content-center justify-content-md-between">
+          <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
+            <img src="./img/matias.jfif" class="card-img-top" alt="matias" id="imgteam">
+            <div>
+              <h1>Matias Maximiliano Romano</h1>
+              <p>Me gusta mucho el rock nacional, soy fan de The beatles, pink Floyd. Soy hincha de Boca. Practico
+                deportes como andar en bicicleta y jugar al futbol. Me gusta mucho aprender nuevas cosas.</p>
+            </div>
+          </div>
+
+
+
+          <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
+            <img src="./img/ricardo.jpg" class="card-img-top" alt="ricardo" id="imgteam">
+            <div>
+              <h1>Ricardo Abraham Rellip</h1>
+              <p>"Cuando se es muy joven y se sabe un poco, las montañas son montañas, el agua es agua y los árboles son
+                árboles. Cuando se ha estudiado y se es leído, las montañas ya no son montañas, el agua ya no es agua y
+                los árboles ya no son árboles. Cuando se es sabio, nuevamente las montañas son montañas, el agua es agua
+                y los árboles son árboles"</p>
+            </div>
+          </div>
+
+
+
+          <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
+            <img src="/asset/image/team/pablo.jpg" class="card-img-top" alt="julian" id="imgteam">
+            <div>
+              <h1>Bautista Julian Ramallo</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repellendus expedita culpa molestiae
+                illo
+                impedit porro ea laborum iste consectetur suscipit, saepe reiciendis accusantium temporibus velit ullam
+                neque iure qui?
+                Voluptatem molestias sit reprehenderit excepturi quos autem molestiae repudiandae exercitationem
+                repellendus
+                voluptatum ipsam architecto omnis, sapiente deserunt vitae dolores possimus facilis temporibus optio
+                rem?
+                Mollitia a laudantium modi veritatis ipsa?</p>
+            </div>
+          </div>
+
+
+
+          <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
+            <img src="./img/pablo.JPG" class="card-img-top" alt="pablo" id="imgteam">
+            <div>
+              <h1>Pablo <br> Luis <br> Robledo</h1>
+              <p>Soy un pibe sencillo que le gusta la música(escucho de todo un poco), me fascina la tecnología y trato
+                siempre de estar informado de la última novedad. Soy hincha de River.</p>
+            </div>
+          </div>
+    </section>
+
+
+  </div>
+  <!-- ================
+        footer
+==================== -->
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light mt-auto flex-wrap">
+    <div class="py-2 bg-dark text-center mb-0 nosotros-footer">
+      <p>Nosotros</p>
+    </div>
+
+    <div class="d-flex flex-wrap">
+
+      <div class="col-12 px-3 col-md-3 ">
+        <p><i class="fab fa-fly"></i></p>
+        <p>2021©</p>
+      </div>
+      <div class="col-12 px-3 col-md-3">
+        <p> ¿Que hacemos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque debitis molestias, sed earum eos,.
+        </p>
+      </div>
+      <div class="col-12 px-3 col-md-3">
+        <p> ¿Quienes somos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque debitis molestias, sed earum eos,
+        </p>
+      </div>
+      <div class="col-12 px-3 col-md-3">
+        <p> Contactanos!</p>
+        <a href="">Contacto</a>
+        <a href=""></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

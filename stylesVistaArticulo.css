@@ -81,16 +81,14 @@ img {
     width: 50px;
 } */
 
+
 /* primera imagen articulo */
 
-<<<<<<< HEAD
 .foto-nuevayork{
     background: url(./img/nueva-york1.jpg);
 }
 
 .h1-articulo{
-    background: url(./img/nueva-york1.jpg);
->>>>>>> bauti2
     height: 30rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:  50px;
