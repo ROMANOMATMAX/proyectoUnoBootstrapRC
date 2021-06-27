@@ -226,6 +226,13 @@ footer div i{
     text-shadow: 5px 5px 6px rgba(0,0,0,0.74);
 }
 
+.footer-mobile {
+    display: none;
+}
+
+.footer-pc {
+    display: block;
+}
 /* ESTILOS DEL REGISTRO */
 .registro-body {
     background: url(./img/fondoregistro3.gif) no-repeat center center fixed;
@@ -568,6 +575,12 @@ container-img-card {
     .redes-costado{
         display: none;
     }
+    .footer-mobile {
+        display: block;
+    }
+    .footer-pc {
+        display: none;
+    }
 }
 @media (max-width: 576px) {
     .resized-text-for-sm {
@@ -615,6 +628,12 @@ container-img-card {
     .redes-costado{
         display: none;
     }
+    .footer-mobile {
+        display: block;
+    }
+    .footer-pc {
+        display: none;
+    }
 }
 
 @media (max-width: 425px ) {
@@ -628,6 +647,12 @@ container-img-card {
         display: block;
     }
     .redes-costado{
+        display: none;
+    }
+    .footer-mobile {
+        display: block;
+    }
+    .footer-pc {
         display: none;
     }
 }
