@@ -44,6 +44,15 @@ body {
     opacity: 1;
     transition: opacity 0.2s;
 }
+.carousel-animation{
+    animation-name: mover;
+    animation-duration: 0.75s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;  
+}
 /* .div-read-more:hover > a {
     grid-column: 2/3;
     transition: 2s;
@@ -512,32 +521,19 @@ container-img-card {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
     .details{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        margin: 0;
-        list-style: none;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: -100%;
-        margin: auto;
-        transition: left .2s;
-        background: #000;
-        opacity: 0.6;
-        color: #fff;
-        padding: 10px;
-        /* width: 100%; */
-        font-size: .9rem;
+       display: none;
     }
     .table-img-styles {
         height: 100%;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
+        transition: none;
     }
     .height-bottom-img {
         height: 270px;
     }
     .container-img-card:hover .table-img-styles {
-        transform: scale(1.1) rotate(0deg);
+        transform: scale(1) rotate(0deg);
     }
     
     .container-img-card:hover > .details {
