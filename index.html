@@ -19,8 +19,6 @@
   <body class="min-vh-100 d-flex flex-column">
     <!-- Nav y header  -->
     <!-- NAVBAR -->
-
-
   <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
@@ -45,7 +43,7 @@
               aria-expanded="false">
               Articulos
             </a>
-            <ul class="dropdown-menu border-0 bg-transparent  dropdown-fondo" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu border-0 bg-dark  dropdown-fondo" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
                 </a></li>
               <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
@@ -71,7 +69,7 @@
   </nav>
 
   <!-- seccion redes costado -->
-  <section class="redes">
+  <section class="redes redes-costado">
     <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons ">
       <ul>
         <li class="redes-articulos"> <a class="text-black" href=""> <i class="fab fa-facebook "></i></a></li>
@@ -82,11 +80,10 @@
     </div>
   </section>
 
-
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content text-light bg-transparent modal-fondo">
+      <div class="modal-content text-light bg-dark modal-fondo">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -1527,7 +1524,13 @@
             <a href="">Contacto</a>
             <a href=""></a>
           </div>
-          
+          <section class="redes w-100 redes-mobile">
+            <div class=" bg-transparent py-1 pe-1 redes-icons  ">
+              <ul class="d-flex justify-content-center">
+                <li class="redes-articulos"><a class="text-light" href=""><i class="fab fa-facebook "></i></a><a href=""><i class="text-light fab fa-twitter"></i></a><a href=""><i class=" text-light fab fa-instagram"></i></a><a href=""><i class="text-light fab fa-google-plus-g"></i></a></li>
+              </ul>
+            </div>
+          </section>
         </div>
       </footer>
       <!-- <div class="go-to-top position-fixed d-flex justify-content-center align-items-center">

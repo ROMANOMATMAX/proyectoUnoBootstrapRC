@@ -169,6 +169,10 @@ body {
 
 
 /* seccion redes costado */
+.redes-costado{
+    display: block;
+}
+
 .redes>div{ 
     /* box-shadow: 21px 18px 24px 6px rgba(0,0,0,0.82);
     -webkit-box-shadow: 21px 18px 24px 6px rgba(0,0,0,0.82);
@@ -177,6 +181,7 @@ body {
     backdrop-filter: blur(2px);
 
 }
+
 
 .redes-icons {
     z-index: 1;
@@ -203,6 +208,9 @@ list-style: none;
     color: black;
 }
 
+.redes-mobile{
+    display: none;
+}
 /* footer */
 
 footer{
@@ -226,10 +234,11 @@ footer div i{
 .registro-body > div {
     height: 90vh;
     align-items: center;
+}     
+
+.formulario{
+    width: 30%;
 }
-.formulario-registro{
-    backdrop-filter: blur(10px);
-}       
 
 /* cards */
 .cards-sombra{
@@ -470,6 +479,7 @@ container-img-card {
         transition: transform .2s;
         clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
     }
+    
 }
 @media (max-width: 768px) {
     .height-carousel-item {
@@ -549,6 +559,15 @@ container-img-card {
     .font-size-section-3 a{
         font-size: 2vh;
     }
+    .formulario{
+        width: 75%;
+    }
+    .redes-mobile{
+        display: block;
+    }
+    .redes-costado{
+        display: none;
+    }
 }
 @media (max-width: 576px) {
     .resized-text-for-sm {
@@ -587,11 +606,29 @@ container-img-card {
     .font-size-section-3 a{
         font-size: 1.5vh;
     }
+    .formulario{
+        width: 75%;
+    }
+    .redes-mobile{
+        display: block;
+    }
+    .redes-costado{
+        display: none;
+    }
 }
 
 @media (max-width: 425px ) {
     .height-bottom-img {
         height: 200px;
+    }
+    .formulario{
+        width: 75%;
+    }
+    .redes-mobile{
+        display: block;
+    }
+    .redes-costado{
+        display: none;
     }
 }
 /* @media (min-width: 425px ) {
