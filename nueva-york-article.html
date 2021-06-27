@@ -16,99 +16,95 @@
 
 <body>
     <!-- HEADER -->
-    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
+        <!-- NAVBAR -->
+  <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html" target="_blank">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Articulos
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html" target="_blank">Contacto</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Articulos
-                        </a>
-                        <ul class="dropdown-menu border-0 bg-transparent  dropdown-fondo"
-                            aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
-                                </a></li>
-                            <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
-                            <li><a class="dropdown-item  border-0 text-light" href="#">Mas valorados</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <div class=" me-auto ">
-                    <form class="d-flex m-auto">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-light btn-dark" type="submit"> <i
-                                class="fas fa-search"></i></button>
-                    </form>
-                </div>
-
-                <ul class="nav navbar-nav navbar-right align-items-center">
-                    <li><button type="button" class="btn btn-dark mx-2" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Ingresar
-                        </button></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- seccion redes costado -->
-    <section class="redes">
-        <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons ">
-            <ul>
-                <li class="redes-articulos"> <a class="text-black" href=""> <i class="fab fa-facebook "></i></a></li>
-                <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
-                <li class="redes-articulos"> <a href=""> <i class="fab fa-instagram"></i></a></li>
-                <li class="redes-articulos"> <a href=""> <i class="fab fa-google-plus-g"></i></a></li>
+            <ul class="dropdown-menu border-0 bg-dark  dropdown-fondo" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
+                </a></li>
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas valorados</a></li>
             </ul>
+          </li>
+        </ul>
+
+        <div class=" me-auto ">
+          <form class="d-flex m-auto">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-light btn-dark" type="submit"> <i class="fas fa-search"></i></button>
+          </form>
         </div>
-    </section>
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content text-light bg-transparent modal-fondo">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex justify-content-center ">
-                    <form action="d-flex justify-content-center ">
-                        <div class="d-flex justify-content-center flex-column">
-                            <label for="">Correo</label>
-                            <input type="email" required>
-                            <br>
-                            <label for="">Contraseña</label>
-                            <input type="password" required>
-                            <br>
-                            <button class=" btn-outline-dark btn-light" type="submit">Enviar</button>
-                            <br>
-                            <label for=""><a href="register.html">Registrarse</a></label>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-        </div>
+        <ul class="nav navbar-nav navbar-right align-items-center">
+          <li><button type="button" class="btn btn-dark mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Ingresar
+            </button></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+  <!-- seccion redes costado -->
+  <section class="redes redes-costado">
+    <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons ">
+      <ul>
+        <li class="redes-articulos"> <a class="text-black" href=""> <i class="fab fa-facebook "></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-instagram"></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-google-plus-g"></i></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content text-light bg-dark modal-fondo">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex justify-content-center ">
+          <form action="d-flex justify-content-center ">
+            <div class="d-flex justify-content-center flex-column">
+              <label for="">Correo</label>
+              <input type="email" required>
+              <br>
+              <label for="">Contraseña</label>
+              <input type="password" required>
+              <br>
+              <button class=" btn-outline-dark btn-light" type="submit">Enviar</button>
+              <br>
+              <label for=""><a href="register.html">Registrarse</a></label>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- HEADER -->
     <section class="px-md-5 container mt-4 font-size-section-1 overflow-hidden">
         <p><a href="">BLOG</a> | <a href="">INDUSTRIA MUSICAL</a></p>
