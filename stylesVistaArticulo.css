@@ -80,6 +80,25 @@ img {
 /* .height-anuncio-articulo {
     width: 50px;
 } */
+/* fotos articulos */
+.foto-rusia{
+    background-image: url(./img/Rusia-1.jpg);
+}
+
+.foto-grecia{
+    background-image: url(./img/grecia-1.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.foto-nuevayork{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./img/nueva-york\ 1.jpeg);
+}
+
+.h1-articulo{
+height: 30rem;
+}
+
 
 @media (max-width: 992px) {
     .costumized-container-form-news-letter {
