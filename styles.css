@@ -379,7 +379,7 @@ container-img-card {
     opacity: 0.6;
     color: #fff;
     padding: 10px;
-    /* width: 100%; */
+    width: 0;
     font-size: .9rem;
 }
 
@@ -438,6 +438,11 @@ container-img-card {
 }
 .font-size-section-3 {
     display: none;
+}
+
+.aside-img-contain {
+    height: 100%;
+    object-fit: contain;
 }
 /* 
 :hover {
