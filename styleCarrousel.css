@@ -90,6 +90,7 @@
 } */
 .img-item-carrousel {
     opacity: 0.5;
+    height: 100%;
 }
 #tematicaDos {
     display: none;
