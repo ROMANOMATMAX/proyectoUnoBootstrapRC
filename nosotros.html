@@ -9,109 +9,111 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./nosotros.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="./img/icono.svg">
-
+  <link rel="stylesheet" href="./nosotros.css">
   <title>Nosotros</title>
 </head>
 
 <body>
   <!-- Nav y header  -->
-      <!-- NAVBAR -->
-      <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html" target="_blank">Contacto</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Articulos
-                </a>
-                <ul class="dropdown-menu border-0 bg-dark  dropdown-fondo" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
-                    </a></li>
-                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
-                  <li><a class="dropdown-item  border-0 text-light" href="#">Mas valorados</a></li>
-                </ul>
-              </li>
+  <!-- NAVBAR -->
+  <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fab fa-fly"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html" target="_blank">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Articulos
+            </a>
+            <ul class="dropdown-menu border-0 bg-dark  dropdown-fondo" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas Recientes
+                </a></li>
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas vistos</a></li>
+              <li><a class="dropdown-item  border-0 text-light" href="#">Mas valorados</a></li>
             </ul>
-    
-            <div class=" me-auto ">
-              <form class="d-flex m-auto">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-light btn-dark" type="submit"> <i class="fas fa-search"></i></button>
-              </form>
-            </div>
-    
-            <ul class="nav navbar-nav navbar-right align-items-center">
-              <li><button type="button" class="btn btn-dark mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  Ingresar
-                </button></li>
-            </ul>
-          </div>
+          </li>
+        </ul>
+
+        <div class=" me-auto ">
+          <form class="d-flex m-auto">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-light btn-dark" type="submit"> <i class="fas fa-search"></i></button>
+          </form>
         </div>
-      </nav>
-    
-      <!-- seccion redes costado -->
-      <section class="redes redes-costado">
-        <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons ">
-          <ul>
-            <li class="redes-articulos"> <a class="text-black" href=""> <i class="fab fa-facebook "></i></a></li>
-            <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
-            <li class="redes-articulos"> <a href=""> <i class="fab fa-instagram"></i></a></li>
-            <li class="redes-articulos"> <a href=""> <i class="fab fa-google-plus-g"></i></a></li>
-          </ul>
+
+        <ul class="nav navbar-nav navbar-right align-items-center">
+          <li><button type="button" class="btn btn-dark mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Ingresar
+            </button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- seccion redes costado -->
+  <section class="redes redes-costado">
+    <div class=" position-fixed bottom-50 bg-transparent py-1 pe-1 redes-icons ">
+      <ul>
+        <li class="redes-articulos"> <a class="text-black" href=""> <i class="fab fa-facebook "></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-twitter"></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-instagram"></i></a></li>
+        <li class="redes-articulos"> <a href=""> <i class="fab fa-google-plus-g"></i></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content text-light bg-dark modal-fondo">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-      </section>
-    
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content text-light bg-dark modal-fondo">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body d-flex justify-content-center ">
+          <form action="d-flex justify-content-center ">
+            <div class="d-flex justify-content-center flex-column">
+              <label for="">Correo</label>
+              <input type="email" required>
+              <br>
+              <label for="">Contraseña</label>
+              <input type="password" required>
+              <br>
+              <button class=" btn-outline-dark btn-light" type="submit">Enviar</button>
+              <br>
+              <label for=""><a href="register.html">Registrarse</a></label>
             </div>
-            <div class="modal-body d-flex justify-content-center ">
-              <form action="d-flex justify-content-center ">
-                <div class="d-flex justify-content-center flex-column">
-                  <label for="">Correo</label>
-                  <input type="email" required>
-                  <br>
-                  <label for="">Contraseña</label>
-                  <input type="password" required>
-                  <br>
-                  <button class=" btn-outline-dark btn-light" type="submit">Enviar</button>
-                  <br>
-                  <label for=""><a href="register.html">Registrarse</a></label>
-                </div>
-              </form>
-    
-            </div>
-          </div>
+          </form>
+
         </div>
       </div>
+    </div>
+  </div>
   <header>
     <div class="container pt-5">
       <h3 class="titulo text-center">Nosotros</h3>
@@ -145,7 +147,8 @@
           <p> Contarte que llevamos muchos años viajando y después de visitar <strong>miles de lugares</strong> tanto en
             Argentina como en el resto del mundo decidimos dar un pequeño paso y hacer realidad TravelWorld, un
             <strong></strong>blog de viajes para los amantes de la aventura, los viajes y el senderismo. En el fondo no
-            podíamos resistirnos en contar y dar a conocer nuestro particular punto de vista de cada viaje.</p>
+            podíamos resistirnos en contar y dar a conocer nuestro particular punto de vista de cada viaje.
+          </p>
           <p>Hoy en día nos hemos convertido en uno de los blogs referentes y más visitados, con más de <strong>500.000
               visitas únicas mensuales</strong> y más de <strong>85.000 seguidores</strong> en las redes sociales.</p>
           <p> <strong>¡No nos lo esperábamos!.</strong></p>
@@ -188,7 +191,8 @@
               querido trasladar en nuestro blog consejos para viajar, que rutas de senderismo elegir, comentarte hacerca
               de ofertas que nos llegan para viajar más barato por nuestros viajes por Argentina y por el resto del
               mundo. Como ves somos un tanto variados, algo que va muy en línea cuando planificamos un viaje.
-              <strong>¿Un viaje donde haya arte/cultura, playa o montaña?. ¡¡Siiii!!</strong></p>
+              <strong>¿Un viaje donde haya arte/cultura, playa o montaña?. ¡¡Siiii!!</strong>
+            </p>
 
             <hr>
 
@@ -325,94 +329,97 @@
     <section class="container">
       <h3 class="h3 mb-3 p-4 text-center">Desarrolladores</h3>
       <div class="d-flex flex-wrap justify-content-center justify-content-md-between">
-          <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
-            <img src="./img/matias.jfif" class="card-img-top" alt="matias" id="imgteam">
-            <div>
-              <h1>Matias Maximiliano Romano</h1>
-              <p>Me gusta mucho el rock nacional, soy fan de The beatles, pink Floyd. Soy hincha de Boca. Practico
-                deportes como andar en bicicleta y jugar al futbol. Me gusta mucho aprender nuevas cosas.</p>
-            </div>
+        <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
+          <img src="./img/matias.jfif" class="card-img-top" alt="matias" id="imgteam">
+          <div>
+            <h1>Matias Maximiliano Romano</h1>
+            <p>Me gusta mucho el rock nacional, soy fan de The beatles, pink Floyd. Soy hincha de Boca. Practico
+              deportes como andar en bicicleta y jugar al futbol. Me gusta mucho aprender nuevas cosas.</p>
           </div>
+        </div>
 
 
 
-          <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
-            <img src="./img/ricardo.jpg" class="card-img-top" alt="ricardo" id="imgteam">
-            <div>
-              <h1>Ricardo Abraham Rellip</h1>
-              <p>"Cuando se es muy joven y se sabe un poco, las montañas son montañas, el agua es agua y los árboles son
-                árboles. Cuando se ha estudiado y se es leído, las montañas ya no son montañas, el agua ya no es agua y
-                los árboles ya no son árboles. Cuando se es sabio, nuevamente las montañas son montañas, el agua es agua
-                y los árboles son árboles"</p>
-            </div>
+        <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
+          <img src="./img/ricardo.jpg" class="card-img-top" alt="ricardo" id="imgteam">
+          <div>
+            <h1>Ricardo Abraham Rellip</h1>
+            <p>"Cuando se es muy joven y se sabe un poco, las montañas son montañas, el agua es agua y los árboles son
+              árboles. Cuando se ha estudiado y se es leído, las montañas ya no son montañas, el agua ya no es agua y
+              los árboles ya no son árboles. Cuando se es sabio, nuevamente las montañas son montañas, el agua es agua
+              y los árboles son árboles"</p>
           </div>
+        </div>
 
 
 
-          <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
-            <img src="./img/bauti.jpeg" class="card-img-top" alt="bauti" id="imgteam">
-            <div>
-              <h1>Bautista Julian Ramallo</h1>
-              <p>Barbero y futuro programador, hago streams de jueguitos en <a href="https://www.twitch.tv/bbaution">twitch</a>. Hincha de 9z </p>
-            </div>
+        <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
+          <img src="./img/bauti.jpeg" class="card-img-top" alt="bauti" id="imgteam">
+          <div>
+            <h1>Bautista Julian Ramallo</h1>
+            <p>Barbero y futuro programador, hago streams de jueguitos en <a href="twitch.tv/bbaution">twitch</a>.
+              Hincha de 9z </p>
           </div>
+        </div>
 
 
 
-          <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
-            <img src="./img/pablo.JPG" class="card-img-top" alt="pablo" id="imgteam">
-            <div>
-              <h1>Pablo <br> Luis <br> Robledo</h1>
-              <p>Soy un pibe sencillo que le gusta la música(escucho de todo un poco), me fascina la tecnología y trato
-                siempre de estar informado de la última novedad. Soy hincha de River.</p>
-            </div>
+        <div class="card mb-5 p-3" style="width: 18rem;" id="centerCard">
+          <img src="./img/pablo.JPG" class="card-img-top" alt="pablo" id="imgteam">
+          <div>
+            <h1>Pablo <br> Luis <br> Robledo</h1>
+            <p>Soy un pibe sencillo que le gusta la música(escucho de todo un poco), me fascina la tecnología y trato
+              siempre de estar informado de la última novedad. Soy hincha de River.</p>
           </div>
+        </div>
     </section>
 
 
   </div>
 
-    <!-- FOOTER -->
-    <footer class="bg-dark text-light mt-auto flex-wrap ps-md-5">
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light mt-auto flex-wrap ps-md-5">
 
-      <div class="col-12 px-3 col-md-4  py-4 footer-mobile " >
+    <div class="col-12 px-3 col-md-4  py-4 footer-mobile ">
+      <p><i class="fab fa-fly">Travel World</i></p>
+      <p>2021©</p>
+      <p> Todos los derechos reservados.</p>
+    </div>
+
+    <div class="d-flex flex-wrap ">
+      <div class="col-12 px-3 col-md-4 py-4 pt-md-5">
+        <p> Trabaja con nosotros</p>
+        <p><a href="">Afiliados</a></p>
+        <p> <a href="">Empleo</a></p>
+        <p>
+          <a href="">Alojamientos</a>
+        </p>
+      </div>
+
+      <div class="col-12 px-3 col-md-4  py-4 footer-pc ">
         <p><i class="fab fa-fly">Travel World</i></p>
         <p>2021©</p>
         <p> Todos los derechos reservados.</p>
       </div>
-  
-      <div class="d-flex flex-wrap ">
-        <div class="col-12 px-3 col-md-4 py-4 pt-md-5">
-          <p> Trabaja con nosotros</p>
-          <p><a href="">Afiliados</a></p>
-          <p> <a href="">Empleo</a></p><p>
-          <a href="">Alojamientos</a></p>
-        </div>
-  
-        <div class="col-12 px-3 col-md-4  py-4 footer-pc " >
-          <p><i class="fab fa-fly">Travel World</i></p>
-          <p>2021©</p>
-          <p> Todos los derechos reservados.</p>
-        </div>
-  
-        <div class="col-12 px-3 col-md-4 pt-md-5">
-          <p> Contactanos!</p>
-          <a href="contacto.html">Contacto</a>
-        </div>
-        
-        
-        <section class="redes w-100 redes-mobile p-4">
-          <div class=" bg-transparent py-1 pe-1 redes-icons  ">
-            <ul class="d-flex justify-content-center ">
-              <li class="redes-articulos"><a class="text-light" href=""><i class="fab fa-facebook px-2"></i></a><a href=""><i
-                    class="text-light fab fa-twitter px-2"></i></a><a href=""><i
-                    class=" text-light fab fa-instagram px-2"></i></a><a href=""><i
-                    class="text-light fab fa-google-plus-g px-2"></i></a></li>
-            </ul>
-          </div>
-        </section>
+
+      <div class="col-12 px-3 col-md-4 pt-md-5">
+        <p> Contactanos!</p>
+        <a href="contacto.html">Contacto</a>
       </div>
-    </footer>
+
+
+      <section class="redes w-100 redes-mobile p-4">
+        <div class=" bg-transparent py-1 pe-1 redes-icons  ">
+          <ul class="d-flex justify-content-center ">
+            <li class="redes-articulos"><a class="text-light" href=""><i class="fab fa-facebook px-2"></i></a><a
+                href=""><i class="text-light fab fa-twitter px-2"></i></a><a href=""><i
+                  class=" text-light fab fa-instagram px-2"></i></a><a href=""><i
+                  class="text-light fab fa-google-plus-g px-2"></i></a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </footer>
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
