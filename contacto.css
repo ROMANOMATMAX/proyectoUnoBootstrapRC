@@ -1,5 +1,5 @@
 body {
-    background-image: url('./img/contacto\ fondo2.gif');
+    background-image: url('./img/contacto-fondo-mar.txt');
     background-size: cover;
     background-attachment:fixed;
     /* margin: 0;
@@ -7,4 +7,13 @@ body {
 }
 form{
     background: rgba(0,0,0,0.4);
+}
+#animacion{
+    animation-name: animar;
+    animation-duration: 1.5s;
+}
+@keyframes animar{
+    0%{
+        transform: scale(0.3);
+    }
 }
