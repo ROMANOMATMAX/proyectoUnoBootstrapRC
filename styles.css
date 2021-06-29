@@ -152,15 +152,46 @@ body {
 }
 
 /* ESTILOS DEL HEADER Y EL NAV  */
-/* navbar */
-
-.dropdown-fondo{
-    backdrop-filter: blur(2px);
+/* prueba */
+.nav > li {
+    list-style: none;
+    float:left;
 }
 
-.dropdown-fondo li a:hover{
-    background:rgba(0, 0, 0, 0.295);
+.nav li a {
+    
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
 }
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    left: 4rem;
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    list-style: none;
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
 
 /* modal */
 .modal-fondo{
