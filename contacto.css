@@ -2,11 +2,19 @@ body {
     background-image: url('./img/contacto-fondo-mar.txt');
     background-size: cover;
     background-attachment:fixed;
+    font-family: 'Roboto Mono', monospace;
     /* margin: 0;
     color: #ffff; */
 }
 .form-style{
     background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+}
+h1{
+    font-size: 30px;
+}
+label{
+    font-size: 20px;
 }
 #animacion{
     animation-name: animar;
