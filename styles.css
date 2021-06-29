@@ -152,14 +152,57 @@ body {
 }
 
 /* ESTILOS DEL HEADER Y EL NAV  */
-/* navbar */
-
-.dropdown-fondo{
-    backdrop-filter: blur(2px);
+/* prueba */
+/* .li-drop-right {
+    list-style: none;
+    float:left;
 }
 
-.dropdown-fondo li a:hover{
-    background:rgba(0, 0, 0, 0.295);
+.nav li a {
+    
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.ul-item {
+    left: 4rem;
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.li-drop-right:hover > .ul-item {
+    display:block;
+}
+
+.nav li ul li {
+    list-style: none;
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+} */
+.li-drop-right {
+    background-color: blanchedalmond;
+}
+.li-drop-right:hover > ul.ul-item{
+    list-style: none;
+    top:0;
+    left: 100px;
+    display: block !important;
+    z-index: 2;
+}
+.ul-item{
+    display: none;
 }
 
 /* modal */
