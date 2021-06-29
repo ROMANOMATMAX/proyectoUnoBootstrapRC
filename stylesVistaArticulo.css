@@ -134,6 +134,12 @@ height: 30rem;
     .font-size-section-5 {
         
     }
+    .font-size-section-comentario {
+        font-size: 10px;
+    }
+}
+.font-size-section-comentario {
+    font-size: 10px !important; 
 }
 @media (max-width: 768px) {
     .costumized-container-form-news-letter {
