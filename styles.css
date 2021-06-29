@@ -300,6 +300,12 @@ footer div i{
     user-select: none;
 }
 
+/* dropdown article */
+.dropdown-articulo{
+    display: block;
+}
+
+
 /* Cambios de mati en su nueva branch */
 .card-animation{
     animation-name: moverImagenLeftToRight;
@@ -534,7 +540,9 @@ container-img-card {
         transition: transform .2s;
         clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
     }
-    
+    .dropdown-articulo{
+        display: none;
+    }
 }
 @media (max-width: 768px) {
     .height-carousel-item {
@@ -629,6 +637,9 @@ container-img-card {
     .footer-pc {
         display: none;
     }
+    .dropdown-articulo{
+        display: none;
+    }
 }
 @media (max-width: 576px) {
     .resized-text-for-sm {
@@ -682,7 +693,11 @@ container-img-card {
     .footer-pc {
         display: none;
     }
+    .dropdown-articulo{
+        display: none;
+    }
 }
+
 
 @media (max-width: 425px ) {
     .height-bottom-img {
@@ -701,6 +716,9 @@ container-img-card {
         display: block;
     }
     .footer-pc {
+        display: none;
+    }
+    .dropdown-articulo{
         display: none;
     }
 }
